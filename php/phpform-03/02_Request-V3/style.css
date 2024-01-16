@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+body{
+    background-color: gray;
+    margin-top: 0px;
+    padding: 0px;
+    font-size: large;
+    font-weight: 400;
+    font-family: 'Handlee', cursive;
+}
+
+.whole-page{
+    width: 900px;
+    margin: auto;
+    padding: 0px 20px;
+    background-color: beige;
+}
+
+.regi-from{
+    padding: 15px 35px 10px 35px;
+    width: 700px;
+    background-color: rgb(128, 128, 64);
+}
+
+.regi-form-row{
+    padding: 10px;
+}
+
+.regi-form-text{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.regi-form-select{
+    width: 270px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.regi-form-text:hover, .regi-form-select:hover{
+    background-color: green;
+}
+
+.regi-form-radio{
+    width: 20px;
+    height: 20px;
+}
+
+.regi-form-checkbox{
+    width: 20px;
+    height: 20px;
+}
+
+.regi-form-button{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#regi-submit-but{
+    border-color: green;
+    color: green;
+}
+
+#regi-submit-but:hover{
+    background-color: green;
+    color: white;
+}
+
+#regi-reset-but{
+    border-color: red;
+    color: red;
+    margin-left: 10px;
+}
+
+#regi-reset-but:hover{
+    background-color: red;
+    color: white;
+    margin-left: 10px;
+}

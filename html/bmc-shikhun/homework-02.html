@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Work 02</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h2>01. Different type of CSS</h2>
+            <P>CSS means Cascading Style Sheets. By it's full name, we can realize that it is related with style. Yes, it is a language for style. It is direction for machine or browser, how to represent data to the user. CSS file use .css as extension.</P>
+            <p>CSS code can written by three different ways. Like Inline CSS, Internal CSS and External.</p>
+            <p>
+                <table>
+                    <tbody>
+                    <tr>
+                    <td><strong>Inline CSS</strong></td>
+                    <td><strong>Internal CSS</strong></td>
+                    <td><strong>External CSS</strong></td>
+                    </tr>
+                    <tr>
+                    <td>When CSS code is written in Tag like attribute, then that is called Inline CSS.</td>
+                    <td>When CSS code is written in Style Tag , then that is called Internal CSS.</td>
+                    <td>When CSS code is written in another file , then that file is linked with any html page, called External CSS.</td>
+                    </tr>
+                    <tr>
+                    <td>Example:<br />&lt;h1 style="color:blue;text-align:center;"&gt;This is a heading&lt;/h1&gt;<br />&lt;p style="color:red;"&gt;This is a paragraph.&lt;/p&gt;</td>
+                    <td>Example:<br />&lt;style&gt;<br />body {<br />  background-color: linen;<br />}<br /><br />h1 {<br />  color: maroon;<br />  margin-left: 40px;<br />}<br />&lt;/style&gt;</td>
+                    <td>Example:<br />&lt;link rel="stylesheet" href="mystyle.css"&gt;</td>
+                    </tr>
+                    <tr>
+                    <td>It will use for single element control or design.</td>
+                    <td>It will use for single page control or design.</td>
+                    <td>It will use for full website control or design.</td>
+                    </tr>
+                    </tbody>
+                    </table>
+            </p>
+        </div>
+        <div>
+            <h2>02. CSS Pseudo Elements</h2>
+            <P>What are Pseudo-Elements?</P>
+            <p>A CSS pseudo-element is used to style specified parts of an element.</p>
+            <p>For example, it can be used to:
+                <ul>
+                    <li>Style the first letter, or line, of an element</li>
+                    <li>nsert content before, or after, the content of an element</li>
+                </ul>
+            </p>
+            <p>Syntax</p>
+            <p>The syntax of pseudo-elements: <br>
+                selector::pseudo-element {             property: value;
+                }</p>
+                <p>
+                    All CSS Pseudo Elements
+                    <table>
+                        <tbody>
+                        <tr>
+                        <th>Selector</th>
+                        <th>Example</th>
+                        <th>Example description</th>
+                        </tr>
+                        <tr>
+                        <td>::after</td>
+                        <td>p::after</td>
+                        <td>Insert something after the content of each &lt;p&gt; element</td>
+                        </tr>
+                        <tr>
+                        <td>::before</td>
+                        <td>p::before</td>
+                        <td>Insert something before the content of each &lt;p&gt; element</td>
+                        </tr>
+                        <tr>
+                        <td>::first-letter</td>
+                        <td>p::first-letter</td>
+                        <td>Selects the first letter of each &lt;p&gt; element</td>
+                        </tr>
+                        <tr>
+                        <td>::first-line</td>
+                        <td>p::first-line</td>
+                        <td>Selects the first line of each &lt;p&gt; element</td>
+                        </tr>
+                        <tr>
+                        <td>::marker</td>
+                        <td>::marker</td>
+                        <td>Selects the markers of list items</td>
+                        </tr>
+                        <tr>
+                        <td>::selection</td>
+                        <td>p::selection</td>
+                        <td>Selects the portion of an element that is selected by a user</td>
+                        </tr>
+                        </tbody>
+                        </table>
+                </p>
+                <p>
+                    All CSS Pseudo Classes
+                    <table>
+                        <tbody>
+                        <tr>
+                        <th>Selector</th>
+                        <th>Example</th>
+                        <th>Example description</th>
+                        </tr>
+                        <tr>
+                        <td>:active</td>
+                        <td>a:active</td>
+                        <td>Selects the active link</td>
+                        </tr>
+                        <tr>
+                        <td>:checked</td>
+                        <td>input:checked</td>
+                        <td>Selects every checked &lt;input&gt; element</td>
+                        </tr>
+                        <tr>
+                        <td>:disabled</td>
+                        <td>input:disabled</td>
+                        <td>Selects every disabled &lt;input&gt; element</td>
+                        </tr>
+                        <tr>
+                        <td>:empty</td>
+                        <td>p:empty</td>
+                        <td>Selects every &lt;p&gt; element that has no children</td>
+                        </tr>
+                        <tr>
+                        <td>:enabled</td>
+                        <td>input:enabled</td>
+                        <td>Selects every enabled &lt;input&gt; element</td>
+                        </tr>
+                        <tr>
+                        <td>:first-child</td>
+                        <td>p:first-child</td>
+                        <td>Selects every &lt;p&gt; elements that is the first child of its parent</td>
+                        </tr>
+                        <tr>
+                        <td>:first-of-type</td>
+                        <td>p:first-of-type</td>
+                        <td>Selects every &lt;p&gt; element that is the first &lt;p&gt; element of its parent</td>
+                        </tr>
+                        <tr>
+                        <td>:focus</td>
+                        <td>input:focus</td>
+                        <td>Selects the &lt;input&gt; element that has focus</td>
+                        </tr>
+                        <tr>
+                        <td>:hover</td>
+                        <td>a:hover</td>
+                        <td>Selects links on mouse over</td>
+                        </tr>
+                        <tr>
+                        <td>:in-range</td>
+                        <td>input:in-range</td>
+                        <td>Selects &lt;input&gt; elements with a value within a specified range</td>
+                        </tr>
+                        <tr>
+                        <td>:invalid</td>
+                        <td>input:invalid</td>
+                        <td>Selects all &lt;input&gt; elements with an invalid value</td>
+                        </tr>
+                        <tr>
+                        <td>:lang(<em>language</em>)</td>
+                        <td>p:lang(it)</td>
+                        <td>Selects every &lt;p&gt; element with a lang attribute value starting with "it"</td>
+                        </tr>
+                        <tr>
+                        <td>:last-child</td>
+                        <td>p:last-child</td>
+                        <td>Selects every &lt;p&gt; elements that is the last child of its parent</td>
+                        </tr>
+                        <tr>
+                        <td>:last-of-type</td>
+                        <td>p:last-of-type</td>
+                        <td>Selects every &lt;p&gt; element that is the last &lt;p&gt; element of its parent</td>
+                        </tr>
+                        <tr>
+                        <td>:link</td>
+                        <td>a:link</td>
+                        <td>Selects all unvisited links</td>
+                        </tr>
+                        <tr>
+                        <td>:not(selector)</td>
+                        <td>:not(p)</td>
+                        <td>Selects every element that is not a &lt;p&gt; element</td>
+                        </tr>
+                        <tr>
+                        <td>:nth-child(n)</td>
+                        <td>p:nth-child(2)</td>
+                        <td>Selects every &lt;p&gt; element that is the second child of its parent</td>
+                        </tr>
+                        <tr>
+                        <td>:nth-last-child(n)</td>
+                        <td>p:nth-last-child(2)</td>
+                        <td>Selects every &lt;p&gt; element that is the second child of its parent, counting from the last child</td>
+                        </tr>
+                        <tr>
+                        <td>:nth-last-of-type(n)</td>
+                        <td>p:nth-last-of-type(2)</td>
+                        <td>Selects every &lt;p&gt; element that is the second &lt;p&gt; element of its parent, counting from the last child</td>
+                        </tr>
+                        <tr>
+                        <td>:nth-of-type(n)</td>
+                        <td>p:nth-of-type(2)</td>
+                        <td>Selects every &lt;p&gt; element that is the second &lt;p&gt; element of its parent</td>
+                        </tr>
+                        <tr>
+                        <td>:only-of-type</td>
+                        <td>p:only-of-type</td>
+                        <td>Selects every &lt;p&gt; element that is the only &lt;p&gt; element of its parent</td>
+                        </tr>
+                        <tr>
+                        <td>:only-child</td>
+                        <td>p:only-child</td>
+                        <td>Selects every &lt;p&gt; element that is the only child of its parent</td>
+                        </tr>
+                        <tr>
+                        <td>:optional</td>
+                        <td>input:optional</td>
+                        <td>Selects &lt;input&gt; elements with no "required" attribute</td>
+                        </tr>
+                        <tr>
+                        <td>:out-of-range</td>
+                        <td>input:out-of-range</td>
+                        <td>Selects &lt;input&gt; elements with a value outside a specified range</td>
+                        </tr>
+                        <tr>
+                        <td>:read-only</td>
+                        <td>input:read-only</td>
+                        <td>Selects &lt;input&gt; elements with a "readonly" attribute specified</td>
+                        </tr>
+                        <tr>
+                        <td>:read-write</td>
+                        <td>input:read-write</td>
+                        <td>Selects &lt;input&gt; elements with no "readonly" attribute</td>
+                        </tr>
+                        <tr>
+                        <td>:required</td>
+                        <td>input:required</td>
+                        <td>Selects &lt;input&gt; elements with a "required" attribute specified</td>
+                        </tr>
+                        <tr>
+                        <td>:root</td>
+                        <td>root</td>
+                        <td>Selects the document's root element</td>
+                        </tr>
+                        <tr>
+                        <td>:target</td>
+                        <td>#news:target</td>
+                        <td>Selects the current active #news element (clicked on a URL containing that anchor name)</td>
+                        </tr>
+                        <tr>
+                        <td>:valid</td>
+                        <td>input:valid</td>
+                        <td>Selects all &lt;input&gt; elements with a valid value</td>
+                        </tr>
+                        <tr>
+                        <td>:visited</td>
+                        <td>a:visited</td>
+                        <td>Selects all visited links</td>
+                        </tr>
+                        </tbody>
+                        </table>
+                </p>
+        </div>
+        <div>
+            <h2>03. Different Between Id and Class Attribute</h2>
+            <P>We can easily understand by example of a school. Let, a high school have different class like class one, class two and etc. And every class have many student. And every student get a identity or profile number when first time registration that school.</P>
+            <p>When we need to call a group of that school, we called them by class name class one or class two. And we complete group work. This type work is completed by class attribute.</p>
+            <P>But when we need to know specific information of a student, we search his/her identity number. This type work is completed by id attribute.</P>
+            <p>So we can say that id is unique name of a element and class is group name of a element.</p>
+            <P>ID’s are unique
+                <ul>
+                    <li>Each element can have only one ID.</li>
+                    <li>Each ID can have an unlimited amount of Styles applied to it.</li>
+                    <li>Each page can have only one element with that ID.</li>
+                    <li>IDs use “#” in the CSS which can also be used as an identifier for HTML “Jump Links” (hyperlinks). This allows you to jump from one place to another on the same web page and can also be used in creating a well-designed Table of Contents.</li>
+                </ul>
+            </P>
+            <p>Classes are not unique
+                <ul>
+                    <li>You can use the same Class on multiple elements.</li>
+                    <li>Class naming is case sensitive.</li>
+                    <li>Classes use a “.” in front of the name in the CSS as seen in the illustration below.</li>
+                    <li>Each Class can have an unlimited amount of Styles applied to it.</li>
+                    <li>You can use multiple classes on the same element.</li>
+                </ul>
+            </p>
+        </div>
+        <div>
+            <h2>04. CSS Box Model</h2>
+            <P>In CSS, the term "box model" is used when talking about design and layout.</P>
+            <p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.</p>
+            <p>Explanation of the different parts:</p>
+            <p>Content - The content of the box, where text and images appear</p>
+            <p>Padding - Clears an area around the content. The padding is transparent</p>
+            <p>Border - A border that goes around the padding and content</p>
+            <p>Margin - Clears an area outside the border. The margin is transparent</p>
+            <p>The box model allows us to add a border around elements, and to define space between elements.</p>
+        </div>
+    </div>
+    
+</body>
+</html>

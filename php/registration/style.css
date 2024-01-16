@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+body {
+    margin-top: 0px;
+    font-size: large;
+    font-weight: 400;
+    font-family: 'Handlee', cursive;
+    color: white;
+}
+
+.page-body{
+    width: 940px;
+    background: rgb(64, 64, 64);
+    padding: 20px 20px 20px 50px;
+    margin: auto;
+
+}
+
+.page-body-wrapper{
+    width: 1380px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+.registration-form{
+    width: 600px;
+}
+
+.regi-form-row{
+    display: flex;
+    padding: 10px 10px;
+}
+
+.form-label{
+    width: 150px;
+}
+
+.regi-form-input,
+.regi-form-textarea,
+.regi-form-select,
+.regi-form-checkbox,
+.regi-form-radio,
+.regi-form-button {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Handlee', cursive;
+}
+
+.regi-form-input:hover,
+.regi-form-textarea:hover,
+.regi-form-select:hover,
+.regi-form-button:hover {
+    background-color: green;
+    color: white;
+}
+
+.regi-form-input{
+    width: 220px;
+}
+
+.regi-form-select{
+    width: 240px;
+}
+
+.regi-form-checkbox{
+    width: 20px;
+    height: 20px;
+}
+
+.regi-form-radio{
+    width: 20px;
+    height: 20px;
+}
+
+.regi-form-textarea{
+    width: 220px;
+}
+
+.regi-form-button:hover{
+    background: green;
+    color: white;
+}

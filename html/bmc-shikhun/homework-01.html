@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Work 01</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div>
+      <div>
+        <h2>01. What is Block Element?</h2>
+        <p>
+          A block-level element always starts on a new line, and the browsers
+          automatically add some space (a margin) before and after the element.
+          A block-level element always takes up the full width available
+          (stretches out to the left and right as far as it can). Two commonly
+          used block elements are: p and div
+        </p>
+        <p>Here we found more block element</p>
+        <ul>
+          <li>address</li>
+          <li>article</li>
+          <li>aside</li>
+          <li>blockquote</li>
+          <li>canvas</li>
+          <li>dd</li>
+          <li>div</li>
+          <li>dl</li>
+          <li>dt</li>
+          <li>fieldset</li>
+          <li>figcaption</li>
+          <li>figure</li>
+          <li>footer</li>
+          <li>form</li>
+          <li>h1-h6</li>
+          <li>header</li>
+          <li>hr</li>
+          <li>li</li>
+          <li>main</li>
+          <li>nav</li>
+          <li>noscript</li>
+          <li>ol</li>
+          <li>p</li>
+          <li>pre</li>
+          <li>section</li>
+          <li>table</li>
+          <li>tfoot</li>
+          <li>ul</li>
+          <li>video</li>
+        </ul>
+      </div>
+      <div>
+        <h2>02. What is Inline Element?</h2>
+        <p>Inline elements display in a line. They do not force the text after them to a new line. An anchor (or link) is an example of an inline element. You can put several links in a row, and they will display in a line.</p>
+        <p>We see below list as inline element</p>
+        <ul>
+            <li>a</li>
+            <li>abbr</li>
+            <li>acronym</li>
+            <li>b</li>
+            <li>bdo</li>
+            <li>big</li>
+            <li>br</li>
+            <li>button</li>
+            <li>cite</li>
+            <li>code</li>
+            <li>dfn</li>
+            <li>em</li>
+            <li>i</li>
+            <li>img</li>
+            <li>input</li>
+            <li>kbd</li>
+            <li>label</li>
+            <li>map</li>
+            <li>object</li>
+            <li>output</li>
+            <li>q</li>
+            <li>samp</li>
+            <li>script</li>
+            <li>select</li>
+            <li>small</li>
+            <li>span</li>
+            <li>strong</li>
+            <li>sub</li>
+            <li>sup</li>
+            <li>textarea</li>
+            <li>time</li>
+            <li>tt</li>
+            <li>var</li>
+        </ul>
+      </div>
+      <div>
+        <h2>03. Deafult size of heading</h2>
+        <div>
+            <h3>Deafult size of h1</h3>
+            <p>font-size: 2em / 32 px</p>
+            <p>font-weight: bolder</p>
+        </div>
+        <div>
+            <h3>Deafult size of h2</h3>
+            <p>font-size: 1.5em / 24 px</p>
+            <p>font-weight: bolder</p>
+        </div>
+        <div>
+            <h3>Deafult size of h3</h3>
+            <p>font-size: 1.17em / 18.72 px</p>
+            <p>font-weight: bolder</p>
+        </div>
+        <div>
+            <h3>Deafult size of h4</h3>
+            <p>font-size: 1em / 16 px</p>
+            <p>font-weight: bolder</p>
+        </div>
+        <div>
+            <h3>Deafult size of h5</h3>
+            <p>font-size: .83em / 13.28 px</p>
+            <p>font-weight: bolder</p>
+        </div>
+        <div>
+            <h3>Deafult size of h6</h3>
+            <p>font-size: .67em / 10.72 px</p>
+            <p>font-weight: bolder</p>
+        </div>
+    </div>
+    <div>
+        <h2>04. How to link a Image with HTML page from image source?</h2>
+        <div>
+            <h3>Absolute file paths</h3>
+            <p>An absolute file path is the full URL to a file.</p>
+            <p>Example:<img src="http://hp.bikrompur.com/wp-content/uploads/2023/07/Hero.png" alt="Hero"></p>
+        </div>
+        <div>
+            <h3>Root file paths</h3>
+            <p>Root file paths is alternative for absolute file paths</p>
+            <p>Example:<img src="/wp-content/uploads/2023/07/Hero.png" alt="Hero"></p>
+        </div>
+        <div>
+            <h3>Same folder file paths</h3>
+            <p>Example:<img src="Hero.png" alt="Hero"></p>
+        </div>
+        <div>
+            <h3>Nest folder file paths</h3>
+            <p>Here we imagine that this html file and a folder name "uploads" is in same folder. And a image "Hero.png" is in the "uploads folder.</p>
+            <p>Example:<img src="uploads/Hero.png" alt="Hero"></p>
+        </div>
+        <div>
+            <h3>Outside file paths</h3>
+            <p>When a file location is not in same folder or nest folder, it locate in outside folder but same parents folder, we use below type link path.</p>
+            <p>Example: <img src="../picture.jpg"></p>
+        </div>
+    </div>
+    <div>
+        <h2>05. Common attribute list for HTML</h2>
+        <p>
+            <table>
+                <tbody>
+                <tr>
+                <td><strong>Attribute</strong></td>
+                <td><strong>Related Tag</strong></td>
+                <td><strong>Description</strong></td>
+                </tr>
+                <tr>
+                <td>alt</td>
+                <td>area, img, input</td>
+                <td>alternate text when the original element fails to display</td>
+                </tr>
+                <tr>
+                <td>colspan</td>
+                <td>td, th</td>
+                <td>number of columns a table cell should span</td>
+                </tr>
+                <tr>
+                <td>disabled</td>
+                <td>button, fieldset, input, optgroup, option, select, textarea</td>
+                <td>specified element/group of elements should be disabled</td>
+                </tr>
+                <tr>
+                <td>for</td>
+                <td>label, output</td>
+                <td>which form element(s) a label/calculation is bound to</td>
+                </tr>
+                <tr>
+                <td>form</td>
+                <td>button, fieldset, input, label, meter, object, output, select, textarea</td>
+                <td>name of the form the element belongs to</td>
+                </tr>
+                <tr>
+                <td>formaction</td>
+                <td>button, input</td>
+                <td>where to send the form-data when a form is submitted. Only for type="submit"</td>
+                </tr>
+                <tr>
+                <td>headers</td>
+                <td>td, th</td>
+                <td>one or more headers cells a cell is related to</td>
+                </tr>
+                <tr>
+                <td>height</td>
+                <td>canvas, embed, iframe, img, input, object, video</td>
+                <td>height of the element</td>
+                </tr>
+                <tr>
+                <td>href</td>
+                <td>a, area, base, link</td>
+                <td>URL of the page the link goes to</td>
+                </tr>
+                <tr>
+                <td>hreflang</td>
+                <td>a, area, link</td>
+                <td>language of the linked document</td>
+                </tr>
+                <tr>
+                <td>label</td>
+                <td>track, option, optgroup</td>
+                <td>title of the text track</td>
+                </tr>
+                <tr>
+                <td>max</td>
+                <td>input, meter, progress</td>
+                <td>maximum value</td>
+                </tr>
+                <tr>
+                <td>maxlength</td>
+                <td>input, textarea</td>
+                <td>maximum number of characters allowed in an element</td>
+                </tr>
+                <tr>
+                <td>min</td>
+                <td>input, meter</td>
+                <td>a minimum value</td>
+                </tr>
+                <tr>
+                <td>name</td>
+                <td>button, fieldset, form, iframe, input, map, meta, object, output, param, select, textarea</td>
+                <td>name of the element</td>
+                </tr>
+                <tr>
+                <td>onload</td>
+                <td>body, iframe, img, input, link, script, style</td>
+                <td>Script to be run when the element is finished loading</td>
+                </tr>
+                <tr>
+                <td>readonly</td>
+                <td>input, textarea</td>
+                <td>element is read-only</td>
+                </tr>
+                <tr>
+                <td>rel</td>
+                <td>a, area, form, link</td>
+                <td>relationship between the current document and the linked document</td>
+                </tr>
+                <tr>
+                <td>required</td>
+                <td>input, select, textarea</td>
+                <td>element must be filled out before submitting the form</td>
+                </tr>
+                <tr>
+                <td>rowspan</td>
+                <td>td, th</td>
+                <td>number of rows a table cell should span</td>
+                </tr>
+                <tr>
+                <td>size</td>
+                <td>input, select</td>
+                <td>width, in characters (for input) or number of visible options (for select)</td>
+                </tr>
+                <tr>
+                <td>sizes</td>
+                <td>img, link, source</td>
+                <td>size of the linked resource</td>
+                </tr>
+                <tr>
+                <td>span</td>
+                <td>col, colgroup</td>
+                <td>number of columns to span</td>
+                </tr>
+                <tr>
+                <td>src</td>
+                <td>audio, embed, iframe, img, input, script, source, track, video</td>
+                <td>URL of the media file</td>
+                </tr>
+                <tr>
+                <td>target</td>
+                <td>a, area, base, form</td>
+                <td>target for where to open the linked document or where to submit the form</td>
+                </tr>
+                <tr>
+                <td>type</td>
+                <td>a, button, embed, input, link, menu, object, script, source, style</td>
+                <td>type of element</td>
+                </tr>
+                <tr>
+                <td>value</td>
+                <td>button, input, li, option, meter, progress, param</td>
+                <td>value of the element</td>
+                </tr>
+                <tr>
+                <td>width</td>
+                <td>canvas, embed, iframe, img, input, object, video</td>
+                <td>width of the element</td>
+                </tr>
+                </tbody>
+                </table>
+        </p>
+    </div>
+    <div>
+        <h2>06. Specific attribute list for HTML</h2>
+        <p>
+            <table>
+                <tbody>
+                <tr>
+                <td><strong>Attribute</strong></td>
+                <td><strong>Related Tag</strong></td>
+                <td><strong>Description</strong></td>
+                </tr>
+                <tr>
+                <td>action</td>
+                <td>form</td>
+                <td>where to send the form-data when a form is submitted</td>
+                </tr>
+                <tr>
+                <td>checked</td>
+                <td>input</td>
+                <td>an input element should be pre-selected when the page loads (for type="checkbox" or type="radio")</td>
+                </tr>
+                <tr>
+                <td>class</td>
+                <td>Global Attributes</td>
+                <td>one or more classnames for an element (refers to a class in a style sheet)</td>
+                </tr>
+                <tr>
+                <td>cols</td>
+                <td>textarea</td>
+                <td>visible width of a text area</td>
+                </tr>
+                <tr>
+                <td>content</td>
+                <td>meta</td>
+                <td>Gives the value associated with the http-equiv or name attribute</td>
+                </tr>
+                <tr>
+                <td>hidden</td>
+                <td>Global Attributes</td>
+                <td>an element is not yet, or is no longer, relevant</td>
+                </tr>
+                <tr>
+                <td>high</td>
+                <td>meter</td>
+                <td>range that is considered to be a high value</td>
+                </tr>
+                <tr>
+                <td>id</td>
+                <td>Global Attributes</td>
+                <td>a unique id for an element</td>
+                </tr>
+                <tr>
+                <td>list</td>
+                <td>input</td>
+                <td>Refers to a datalist element that contains pre-defined options for an input element</td>
+                </tr>
+                <tr>
+                <td>low</td>
+                <td>meter</td>
+                <td>range that is considered to be a low value</td>
+                </tr>
+                <tr>
+                <td>method</td>
+                <td>form</td>
+                <td>HTTP method to use when sending form-data</td>
+                </tr>
+                <tr>
+                <td>onblur</td>
+                <td>All visible elements.</td>
+                <td>Script to be run when the element loses focus</td>
+                </tr>
+                <tr>
+                <td>onchange</td>
+                <td>All visible elements.</td>
+                <td>Script to be run when the value of the element is changed</td>
+                </tr>
+                <tr>
+                <td>onclick</td>
+                <td>All visible elements.</td>
+                <td>Script to be run when the element is being clicked</td>
+                </tr>
+                <tr>
+                <td>onfocus</td>
+                <td>All visible elements.</td>
+                <td>Script to be run when the element gets focus</td>
+                </tr>
+                <tr>
+                <td>onkeypress</td>
+                <td>All visible elements.</td>
+                <td>Script to be run when a user presses a key</td>
+                </tr>
+                <tr>
+                <td>onreset</td>
+                <td>form</td>
+                <td>Script to be run when a reset button in a form is clicked.</td>
+                </tr>
+                <tr>
+                <td>onscroll</td>
+                <td>All visible elements.</td>
+                <td>Script to be run when an element's scrollbar is being scrolled</td>
+                </tr>
+                <tr>
+                <td>onsearch</td>
+                <td>input</td>
+                <td>Script to be run when the user writes something in a search field (for input type="search")</td>
+                </tr>
+                <tr>
+                <td>onselect</td>
+                <td>All visible elements.</td>
+                <td>Script to be run when the element gets selected</td>
+                </tr>
+                <tr>
+                <td>onsubmit</td>
+                <td>form</td>
+                <td>Script to be run when a form is submitted</td>
+                </tr>
+                <tr>
+                <td>rows</td>
+                <td>textarea</td>
+                <td>visible number of lines in a text area</td>
+                </tr>
+                <tr>
+                <td>selected</td>
+                <td>option</td>
+                <td>an option should be pre-selected when the page loads</td>
+                </tr>
+                <tr>
+                <td>style</td>
+                <td>Global Attributes</td>
+                <td>inline CSS style for an element</td>
+                </tr>
+                <tr>
+                <td>title</td>
+                <td>Global Attributes</td>
+                <td>extra information about an element</td>
+                </tr>
+                <tr>
+                <td>wrap</td>
+                <td>textarea</td>
+                <td>how the text in a text area is to be wrapped when submitted in a form</td>
+                </tr>
+                </tbody>
+                </table>
+        </p>
+    </div>
+    </div>
+  </body>
+</html>

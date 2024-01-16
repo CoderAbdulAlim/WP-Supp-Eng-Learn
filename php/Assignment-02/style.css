@@ -1,0 +1,43 @@
+body{
+    margin-top: opx;
+}
+
+.slideBorad{
+    width: 350px;
+    height: 200px;
+    margin: auto;
+    border: 1px solid gray;
+    background-color: gray;
+}
+
+.textBoard{
+    border: 1px solid gray;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    height: 160px;
+    background-color: white;
+}
+
+.slideMediumorchid{
+    background-color: mediumorchid;
+    padding: 10px 10px;
+    height: 140px;
+}
+
+.slideBlueviolet{
+    background-color: blueviolet;
+    padding: 10px 10px;
+    height: 140px;
+}
+
+.slideYellowgreen{
+    background-color: yellowgreen;
+    padding: 10px 10px;
+    height: 140px;
+}
+
+.slideGreen{
+    background-color: green;
+    padding: 10px 10px;
+    height: 140px;
+}
